@@ -1,0 +1,67 @@
+   .frame{ position: fixed; display: inline-block; margin-right: 100px; z-index: 100;}
+        body{font-family: roboto, sans-serif;}
+
+            section { overflow: auto; z-index: 0;}
+.button{z-index: 50;
+    background-color: blue; 
+    position: fixed;
+    right: 160px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: roboto, san-serif;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+margin-top: 50px;} 
+
+.intro{font-family: museo sans, san-serif;
+    font-weight: 400;
+    color: #21f210;
+    font-size: 40px;
+    float: inherit;
+    display: block;
+    position: static;
+    padding: 250px;}
+
+.image {display:block;
+        margin-left: auto;
+        margin-right: auto;}
+.js-reveal {text-align: -webkit-center;
+    margin: auto;
+    top: -650px;
+    position: relative; color: white; font-size: 70px; font-family: museo sans; font-weight: 400; letter-spacing: 1px;}
+#austing {visibility: hidden;}
+#austin {color:#21f210; top: -450px;}
+#lama {color: white; top: -450px;}
+#adobe {color:blue; top: -450px;}
+#mario {color:#21f210; top: -450px;}
+#bluemoon {color:white; top: -650px;}
+#tarrotcard {color:#21f210; top: -650px;}
+.js-reveal {
+  opacity: 1;
+  transition: opacity .7s ease-in, margin-top .7s ease-out;
+}
+
+.js-reveal--hidden {
+  opacity: 0;
+  margin-top: 3em;
+}
+
+.container {display: block;}
+
+.arrow {text-align: center; position: relative; width: 7%; height: 7%; top:-150px; display: block;}
+.arrow { animation-name: arrowww;
+    animation: bounce 2s infinite;}
+
+@keyframes bounce {0%, 20%, 50%, 80%, 100%{transform: translateY(0)}
+ 40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }}
